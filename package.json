@@ -1,0 +1,35 @@
+{
+  "name": "rethinkdb-adapter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.5",
+    "rethinkdbdash": "^2.3.28",
+    "sharedb": "^1.0.0-beta.7"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ],
+    "source": [
+      "lib/**/*.js"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "tap": true,
+    "powerAssert": false,
+    "require": [
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "nyc": "^10.1.2"
+  }
+}
