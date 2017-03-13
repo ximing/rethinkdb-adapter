@@ -25,11 +25,11 @@
     "failFast": true,
     "tap": true,
     "powerAssert": false,
-    "require": [
-    ]
+    "require": []
   },
   "devDependencies": {
     "ava": "^0.18.2",
+    "eslint": "^3.17.1",
     "nyc": "^10.1.2"
   }
 }
